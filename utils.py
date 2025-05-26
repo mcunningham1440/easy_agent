@@ -6,7 +6,15 @@
 
 def stringify_name(item):
     # Name substitutions, since the OpenAI API uses, string, array, and integer instead of str, list, int
-    return item.__name__.replace("str", "string").replace("list", "array").replace("int", "integer")
+    type_mapping = {
+        "str": "string",
+        "list": "array",
+        "int": "integer",
+        "float": "number",
+        "bool": "boolean"
+    }
+    name = getattr(item, "__name__", str(item))
+    return type_mapping.get(name, name)
 
 def get_function_schema(agent_functions):
     tool_schema = []
