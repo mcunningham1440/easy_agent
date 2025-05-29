@@ -6,9 +6,9 @@ This repo is open-source under the MIT License--feel free to modify, distribute,
 
 ## Installation
 
+As simple as:
 ```
 git clone https://github.com/mcunningham1440/EasyAgent.git
-cd EasyAgent
 ```
 
 ## Usage
