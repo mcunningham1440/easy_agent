@@ -4,9 +4,16 @@ EasyAgent is a template for building very simple LLM-powered chat agents which c
 
 This repo is open-source under the MIT License--feel free to modify, distribute, and use it however you like!
 
+## Installation
+
+```
+git clone https://github.com/mcunningham1440/EasyAgent.git
+cd EasyAgent
+```
+
 ## Usage
 
-Run the notebook `demo_agent.ipynb` and follow the prompts. The documentation shows how to customize the agent for your own purposes.
+Run the notebook demo_agent.ipynb and follow the prompts. The documentation shows how to customize the agent for your own purposes.
 
 ## Learn more
 
